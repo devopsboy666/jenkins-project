@@ -9,7 +9,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Angular Training Form Digital Skills';
+  title = 'Angular Training Form Digital Skills By Noi';
   data = {
     "systemId": "test",
     "userName": "test001",
