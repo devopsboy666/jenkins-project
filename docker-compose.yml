@@ -1,0 +1,11 @@
+services:
+  web:
+    container_name: web-container
+    image: web:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - TZ=Asia/Bangkok
+    ports:
+      - 80:80
